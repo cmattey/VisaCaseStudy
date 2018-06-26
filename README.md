@@ -18,22 +18,22 @@ Here we layout the assumptions and some basic groundwork for our analysis.<br><b
 
 >Consider the Plotline:<br>
 
-You are a very talented individual, who has recently decided to take the grocery world by storm. And your first order of business is to determine the suitability of a particular block in your neighbourhood. On your daily walk to the University, while contemplating about your new found interest in the world of retail, you come across this sign:
-<br>
+You are a talented individual, who has recently decided to take the grocery world by storm. And your first order of business is to determine the suitability of a particular block in your neighbourhood. On your daily walk to the University, while contemplating about your new found interest in the world of retail, you come across this sign:
+<br><br>
 <img src="https://github.com/cmattey/VisaCaseStudy/blob/master/images/chile_closed.jpg" alt="Chile Closed" width="500" height="500">
 <br>
 Your favorite Pie Store has shut down! But being the optimist that you are, you look on the bright side, and see this as an opportunity. What if this is the new site for your grocery store!? You decide to put your analysis skills to the test.
 <br>
 
 ### Assumptions
-<br>
+
 1. The location for our store is chosen at the closed Chile Pie store which is situated at the <b>corner of Baker and Fulton Street</b>.<br>
 2. The nature of the grocery store, and the types of products we plan to sell has not been finalized and will not be considered in our analysis. In fact, we will use some of the results from our analysis to inform our decision of the types of goods to import and sell( More on that later).<br>
 3. All the data used in the analysis is real world data and is available free of charge on open source/government data sites such as sfgov.org, datasf.org, zillow.com etc.
 <br>
 
 ### Analysis
-<br>
+
 Through out our analysis we researched specific areas of concern that will help us make an informed decision while determining the suitability of our chosen location. The areas addressed were as follows:<br>
 1. Security<br>
 2. Population Demographics around the block<br>
