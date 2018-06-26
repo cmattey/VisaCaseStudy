@@ -22,12 +22,14 @@ You are a very talented individual, who has recently decided to take the grocery
 <br>
 Your favorite Pie Store has shut down! But being the optimist that you are, you look on the bright side, and see this as an opportunity. What if this is the new site for your grocery store!? You decide to put your analysis skills to the test.
 <br>
+
 ### Assumptions
 <br>
 1. The location for our store is chosen at the closed Chile Pie store which is situated at the <b>corner of Baker and Fulton Street</b>.<br>
 2. The nature of the grocery store, and the types of products we plan to sell has not been finalized and will not be considered in our analysis. In fact, we will use some of the results from our analysis to inform our decision of the types of goods to import and sell( More on that later).<br>
-3. All the data used in the analysis is real world data and is available free of charge on open source data sites such as sfgov.org, datasf.org, zillow.com etc.
+3. All the data used in the analysis is real world data and is available free of charge on open source/government data sites such as sfgov.org, datasf.org, zillow.com etc.
 <br>
+
 ### Analysis
 <br>
 Through out our analysis we researched specific areas of concern that will help us make an informed decision while determining the suitability of our chosen location. The areas addressed were as follows:<br>
@@ -60,13 +62,28 @@ We found that our store was located in the Park district which has the least num
 > Population Demographics in Store Vicinity
 
 We looked at two particular aspects of the population, ie their Income and their ethnicity. We chose to analyze these two aspects as knowing the trend in the mean income of a household allows us to determine the economic stability of our customer base. Knowing the majority ethnicity of our customers can help inform decision about the types of goods to import and also help with specific marketing strategies.<br>
-From our analysis we found that the households in the store vicinity had an increasing trend in household income and our location was on par with the rest of the city and even had a higher average household income in 2016.<br>
+From our analysis we found that the households in the store vicinity had an increasing trend in household income and our location was on par with the rest of the city and even had a higher average household income in 2016. This ensures an economically stable customer base.<br>
 <h4>Household Income Trend in Store Vicinity</h4>
 <img src="https://github.com/cmattey/VisaCaseStudy/blob/master/images/local_income_trend.png" alt="Local income trend" width="600" height="500"><br>
 <h4>Household Income Comparison with the rest of the city</h4><br>
 <img src="https://github.com/cmattey/VisaCaseStudy/blob/master/images/income_comparison_trend.png" alt="income_trend" width="600" height="500"><br>
 
+The ethnicty distribution told us that the majority of local customers were white, followed by Asians and African Americans. The distribution in the local tracts looked as follows:<br>
+<img src="https://github.com/cmattey/VisaCaseStudy/blob/master/images/eth_count.png" alt="ethinicity count" width="600" height="500"><br>
 
+> Types of nearby businesses
+
+Analyzing the businesses in the vicinity of our store gives us information about other competing market traders and well as gives us information about the kind of customers which we might expect to see around our store, further helping us improve our marketing strategy. After filtering through the open businesses in the region, and looking at their types it could be seen that we have a lot of restuarants in our location, but not many grocery stores(in fact 0 according to the data). The high number of restaurants would mean a lot of foot traffic boosting our brand awareness.<br>
+<img src="https://github.com/cmattey/VisaCaseStudy/blob/master/images/local_businesses.png" alt="local businesses" width="600" height="500"><br>
+A more deatiled look at the types of local businesses can be found in the Python notebook.
+
+> Rent Trend 
+
+We looked at Rent trend in the store vicinity (zipcode:94117) from Nov 2013 to April 2018. This would help us determining our cost estimates in the coming months. Using this data, a time series forecaster was created using the ARIMA model to give us an approximate rent estimate. The rent in the coming months from May 2018 - August 2018 was found to be $4,580.<br>
+<h4>Rent Trend around store location</h4>
+<img src="https://github.com/cmattey/VisaCaseStudy/blob/master/images/rent_trend.png" alt="rent trend" width="600" height="500"><br>
+<h4>ARIMA Time Series Predictions</h4>
+<img src="https://github.com/cmattey/VisaCaseStudy/blob/master/images/rent_prediction.png" alt="arima predictions" width="600" height="500"><br>
 
 
 
